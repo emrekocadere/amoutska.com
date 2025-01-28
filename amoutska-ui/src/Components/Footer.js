@@ -5,7 +5,7 @@ import { FacebookOutlined, MailOutlined, PhoneOutlined, InstagramOutlined, Envir
 function Footer() {
     return (
         <div className="App">
-            <footer style={{ height: "12.5vh", backgroundColor: "blue" }}>
+            <footer style={{ height: "12.5vh", backgroundColor: "rgb(203, 53, 53)" }}>
                 <div >
                     <InstagramOutlined className="FooterIcon"/>
                     <FacebookOutlined className="FooterIcon"/>

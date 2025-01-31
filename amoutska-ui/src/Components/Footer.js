@@ -5,13 +5,49 @@ import { FacebookOutlined, MailOutlined, PhoneOutlined, InstagramOutlined, Envir
 function Footer() {
     return (
         <div className="App">
-            <footer style={{ height: "12.5vh", backgroundColor: "rgb(203, 53, 53)" }}>
-                <div >
-                    <InstagramOutlined className="FooterIcon"/>
-                    <FacebookOutlined className="FooterIcon"/>
-                    <MailOutlined className="FooterIcon"/>
-                    <PhoneOutlined className="FooterIcon"/>
-                    <EnvironmentOutlined className="FooterIcon"/>
+
+            <footer style={{ backgroundColor: "rgb(65,146,131)", paddingInline: "30vw", display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
+
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
+                    <h3 style={{ color: " rgb(35,64,125)" }}>Baslik</h3>
+                    <p style={{ margin: "0px" }}>secenek </p>
+                    <p style={{ margin: "0px" }}>secenek </p>
+                    <p style={{ margin: "0px" }}>secenek </p>
+                    <p style={{ margin: "0px" }}>secenek </p>
+
+                </div>
+
+
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
+                    <h3 style={{ color: " rgb(35,64,125)" }}>Baslik</h3>
+                    <p style={{ margin: "0px" }}>secenek </p>
+                    <p style={{ margin: "0px" }}>secenek </p>
+                    <p style={{ margin: "0px" }}>secenek </p>
+                    <p style={{ margin: "0px" }}>secenek </p>
+
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
+                    <h3 style={{ color: " rgb(35,64,125)" }}>Iletişim</h3>
+                    <div>
+                        <MailOutlined className="FooterIcon" />
+                        example@example.com
+                    </div>
+                    <div>
+                        <EnvironmentOutlined className="FooterIcon" />
+                        Adres
+                    </div>
+                    <div>
+                        <PhoneOutlined className="FooterIcon" />
+                        555 555 5555
+                    </div>
+
+                    <div style={{ display: "flex", flexDirection: "row" }}>
+                        <InstagramOutlined className="FooterIcon" style={{}} />
+                        <FacebookOutlined className="FooterIcon" style={{}} />
+
+                    </div>
+
                 </div>
 
             </footer>

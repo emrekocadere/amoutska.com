@@ -57,8 +57,6 @@ function Header() {
                           }
                         }}}
                     >
-
-
                         <Select
                             style={{ height: "4vh" }}
                             showSearch
@@ -73,7 +71,7 @@ function Header() {
                                 },
                                 {
                                     value: 'Türkçe',
-                                    label: <img src={turkey}  style={{width:"1.5vw"}}/>,
+                                    label: <img src={turkey}  style={{width:"1.5vw",height:"1vw"}}/>,
                                 }
                             ]}
                         />  

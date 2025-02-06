@@ -14,12 +14,9 @@ function Footer() {
                     <p style={{ margin: "0px" }}>secenek </p>
                     <p style={{ margin: "0px" }}>secenek </p>
                     <p style={{ margin: "0px" }}>secenek </p>
-              
 
                 </div>
                 <div style={{width:"1px",backgroundColor:"rgb(35,64,125)",marginBlock:"2.5vh"}}></div>
-              
-
 
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
                     <h3 style={{ color: " rgb(35,64,125)" }}>Baslik</h3>
@@ -31,7 +28,7 @@ function Footer() {
                 </div>
 
                 <div style={{width:"1px",backgroundColor:"rgb(35,64,125)",marginBlock:"2.5vh"}}></div>
-
+,
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
                     <h3 style={{ color: " rgb(35,64,125)" }}>Iletişim</h3>
                     <div>
